@@ -34,7 +34,7 @@ session_start();
 
     <?php 
 if (isset($_POST['go'])){
-  if ($_POST["zin"] == "" || $_SESSION["zin"] == "") {
+  if ($_POST["zin"] == "") {
     ?>
     <div class="col">
       <div class="card" style="width: 18rem;">
