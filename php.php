@@ -34,12 +34,12 @@ function makeUppercase($letter) {
   <?php include 'jumbotron.php'; ?>
 
   <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="img/spongebob.jpg" alt="SpoNgEbOb">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
       <p class="card-text">
         <?=implode("",$newZin);?>
       </p>
-      <a href="./index.php" class="btn btn-primary">Go back</a>
+      <a href="./index.php" class="btn btn-primary">Ga terug</a>
     </div>
   </div>
   <?php include 'Footer.php'; ?>
