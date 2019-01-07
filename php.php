@@ -42,6 +42,7 @@ function makeUppercase($letter) {
       <a href="./index.php" class="btn btn-primary">Go back</a>
     </div>
   </div>
+  <?php include 'Footer.php'; ?>
 </body>
 
 </html>

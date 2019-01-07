@@ -1,6 +1,7 @@
 <?php
 session_start();
 
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -23,7 +24,7 @@ session_start();
         <div class="card" style="width: 18rem;">
           <div class="card-body">
             <div class="form-group">
-              <label for="exampleInputEmail1">Vul hier je zin in en klik op de knop!</label>
+              <h5 class="card-title">Vul hier je zin in en klik op de knop!</h5>
               <input class="form-control" type="text" name="zin">
             </div>
             <input type="submit" class="btn btn-primary" name="go" value="Update je zin">
@@ -65,6 +66,7 @@ if (isset($_POST['go'])){
 ?>
 
   </div>
+  <?php include 'Footer.php'; ?>
 </body>
 
 </html>
